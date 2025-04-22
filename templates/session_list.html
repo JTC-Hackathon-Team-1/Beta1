@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CasaLingua Sessions</title>
+</head>
+<body>
+  <h1>Active Sessions</h1>
+  <ul>
+    {% for session in sessions %}
+      <li><a href="/session/{{ session }}">{{ session }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>CasaLingua Installer</title></head>
+<body>
+  <h1>🚀 CasaLingua Setup Wizard</h1>
+  <form method="post">
+    <label><input type="checkbox" name="install_prisma" value="1" checked> Run Prisma Migrations</label><br>
+    <label><input type="checkbox" name="install_requirements" value="1" checked> Install Python Requirements</label><br>
+    <button type="submit">Run Installer</button>
+  </form>
+
+  {% if messages %}
+    <h2>Install Output:</h2>
+    <ul>
+      {% for msg in messages %}
+        <li>{{ msg }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</body>
+</html>
