@@ -4,3 +4,8 @@ transformers
 torch
 pydantic
 requests
+sqlalchemy
+psycopg2-binary
+prisma
+python-dotenv
+aiofiles
