@@ -1,0 +1,2 @@
+# requirements.txt
+# Placeholder code for CasaLingua v0.17.0
