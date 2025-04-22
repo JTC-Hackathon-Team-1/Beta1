@@ -1,4 +1,4 @@
-# CasaLingua v0.17.0
+# CasaLingua v0.21.0
 
 ## 🧠 Overview
 
