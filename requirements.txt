@@ -1,0 +1,27 @@
+ fastapi
+ uvicorn
+ transformers
+ torch
+ pydantic
+ requests
+ sqlalchemy
+ psycopg2-binary
+ prisma
+ python-dotenv
+ aiofiles
+python-magic
+pillow
+pytesseract
+pdf2image
+opencv-python
+numpy
+whisper
+spacy
+dateparser
+pydantic-settings
+SentencePiece
+aiofiles 
+python-multipart
+textstat
+langdetect
+colorama
